@@ -1,6 +1,6 @@
 # CropViewControllerPractice
 
-Example cropping camera image using `UIScrollView` and `UIImageView`
+An example of cropping camera image using `UIScrollView` and `UIImageView` .
 
 ### Usage
 
