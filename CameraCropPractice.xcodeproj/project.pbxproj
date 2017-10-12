@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450D47DB1F8DC55C00FCBA30 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D47DA1F8DC55C00FCBA30 /* CropViewController.swift */; };
+		450D47DD1F8DC58000FCBA30 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D47DC1F8DC58000FCBA30 /* UIViewController+Extension.swift */; };
+		450D47DF1F8DC5DE00FCBA30 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D47DE1F8DC5DE00FCBA30 /* NSObject+Extension.swift */; };
+		450D47E11F8DC71D00FCBA30 /* CropViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450D47E01F8DC71D00FCBA30 /* CropViewController.storyboard */; };
+		45896E4A1F8F41BB007B5A7A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45896E491F8F41BB007B5A7A /* UIColor+Extension.swift */; };
+		45896E4C1F8F4253007B5A7A /* ExtentionCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45896E4B1F8F4253007B5A7A /* ExtentionCompatible.swift */; };
+		45896E4E1F8F4314007B5A7A /* CropOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45896E4D1F8F4314007B5A7A /* CropOverlayView.swift */; };
+		45896E501F8F4F9E007B5A7A /* CropScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45896E4F1F8F4F9E007B5A7A /* CropScrollView.swift */; };
 		45FBF9601F8CCDCB00369E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBF95F1F8CCDCB00369E1A /* AppDelegate.swift */; };
 		45FBF9621F8CCDCB00369E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBF9611F8CCDCB00369E1A /* ViewController.swift */; };
 		45FBF9651F8CCDCB00369E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FBF9631F8CCDCB00369E1A /* Main.storyboard */; };
@@ -14,6 +22,7 @@
 		45FBF96A1F8CCDCB00369E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FBF9681F8CCDCB00369E1A /* LaunchScreen.storyboard */; };
 		45FBF9751F8CCDCB00369E1A /* CameraCropPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBF9741F8CCDCB00369E1A /* CameraCropPracticeTests.swift */; };
 		45FBF9801F8CCDCB00369E1A /* CameraCropPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBF97F1F8CCDCB00369E1A /* CameraCropPracticeUITests.swift */; };
+		45FBF98F1F8CD17B00369E1A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FBF98E1F8CD17B00369E1A /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		450D47DA1F8DC55C00FCBA30 /* CropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
+		450D47DC1F8DC58000FCBA30 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		450D47DE1F8DC5DE00FCBA30 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		450D47E01F8DC71D00FCBA30 /* CropViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CropViewController.storyboard; sourceTree = "<group>"; };
+		45896E491F8F41BB007B5A7A /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		45896E4B1F8F4253007B5A7A /* ExtentionCompatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtentionCompatible.swift; sourceTree = "<group>"; };
+		45896E4D1F8F4314007B5A7A /* CropOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropOverlayView.swift; sourceTree = "<group>"; };
+		45896E4F1F8F4F9E007B5A7A /* CropScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropScrollView.swift; sourceTree = "<group>"; };
 		45FBF95C1F8CCDCB00369E1A /* CameraCropPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraCropPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FBF95F1F8CCDCB00369E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45FBF9611F8CCDCB00369E1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,7 @@
 		45FBF97B1F8CCDCB00369E1A /* CameraCropPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraCropPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FBF97F1F8CCDCB00369E1A /* CameraCropPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCropPracticeUITests.swift; sourceTree = "<group>"; };
 		45FBF9811F8CCDCB00369E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FBF98E1F8CD17B00369E1A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FBF98F1F8CD17B00369E1A /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,7 @@
 				45FBF9731F8CCDCB00369E1A /* CameraCropPracticeTests */,
 				45FBF97E1F8CCDCB00369E1A /* CameraCropPracticeUITests */,
 				45FBF95D1F8CCDCB00369E1A /* Products */,
+				45FBF98D1F8CD17A00369E1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +117,20 @@
 		45FBF95E1F8CCDCB00369E1A /* CameraCropPractice */ = {
 			isa = PBXGroup;
 			children = (
+				45FBF96B1F8CCDCB00369E1A /* Info.plist */,
+				450D47E01F8DC71D00FCBA30 /* CropViewController.storyboard */,
 				45FBF95F1F8CCDCB00369E1A /* AppDelegate.swift */,
+				45896E4D1F8F4314007B5A7A /* CropOverlayView.swift */,
+				45896E4F1F8F4F9E007B5A7A /* CropScrollView.swift */,
+				450D47DA1F8DC55C00FCBA30 /* CropViewController.swift */,
+				45896E4B1F8F4253007B5A7A /* ExtentionCompatible.swift */,
+				450D47DE1F8DC5DE00FCBA30 /* NSObject+Extension.swift */,
+				45896E491F8F41BB007B5A7A /* UIColor+Extension.swift */,
+				450D47DC1F8DC58000FCBA30 /* UIViewController+Extension.swift */,
 				45FBF9611F8CCDCB00369E1A /* ViewController.swift */,
-				45FBF9631F8CCDCB00369E1A /* Main.storyboard */,
 				45FBF9661F8CCDCB00369E1A /* Assets.xcassets */,
 				45FBF9681F8CCDCB00369E1A /* LaunchScreen.storyboard */,
-				45FBF96B1F8CCDCB00369E1A /* Info.plist */,
+				45FBF9631F8CCDCB00369E1A /* Main.storyboard */,
 			);
 			path = CameraCropPractice;
 			sourceTree = "<group>";
@@ -123,6 +151,14 @@
 				45FBF9811F8CCDCB00369E1A /* Info.plist */,
 			);
 			path = CameraCropPracticeUITests;
+			sourceTree = "<group>";
+		};
+		45FBF98D1F8CD17A00369E1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45FBF98E1F8CD17B00369E1A /* CoreImage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +229,7 @@
 				TargetAttributes = {
 					45FBF95B1F8CCDCB00369E1A = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZLP777QDS4;
 						ProvisioningStyle = Automatic;
 					};
 					45FBF96F1F8CCDCB00369E1A = {
@@ -235,6 +272,7 @@
 				45FBF96A1F8CCDCB00369E1A /* LaunchScreen.storyboard in Resources */,
 				45FBF9671F8CCDCB00369E1A /* Assets.xcassets in Resources */,
 				45FBF9651F8CCDCB00369E1A /* Main.storyboard in Resources */,
+				450D47E11F8DC71D00FCBA30 /* CropViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45896E4A1F8F41BB007B5A7A /* UIColor+Extension.swift in Sources */,
+				45896E4C1F8F4253007B5A7A /* ExtentionCompatible.swift in Sources */,
+				45896E501F8F4F9E007B5A7A /* CropScrollView.swift in Sources */,
+				450D47DF1F8DC5DE00FCBA30 /* NSObject+Extension.swift in Sources */,
+				450D47DD1F8DC58000FCBA30 /* UIViewController+Extension.swift in Sources */,
 				45FBF9621F8CCDCB00369E1A /* ViewController.swift in Sources */,
 				45FBF9601F8CCDCB00369E1A /* AppDelegate.swift in Sources */,
+				450D47DB1F8DC55C00FCBA30 /* CropViewController.swift in Sources */,
+				45896E4E1F8F4314007B5A7A /* CropOverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZLP777QDS4;
 				INFOPLIST_FILE = CameraCropPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.miraitoarumachi.CameraCropPractice;
@@ -426,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZLP777QDS4;
 				INFOPLIST_FILE = CameraCropPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.miraitoarumachi.CameraCropPractice;
@@ -507,6 +554,7 @@
 				45FBF9861F8CCDCB00369E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45FBF9871F8CCDCB00369E1A /* Build configuration list for PBXNativeTarget "CameraCropPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +563,7 @@
 				45FBF9891F8CCDCB00369E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45FBF98A1F8CCDCB00369E1A /* Build configuration list for PBXNativeTarget "CameraCropPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +572,7 @@
 				45FBF98C1F8CCDCB00369E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
