@@ -15,7 +15,7 @@ protocol CropViewControllerDelegate: class {
 class CropViewController: UIViewController, UIScrollViewDelegate {
     private var scrollView: UIScrollView!
     private var imageView: UIImageView!
-    var image: UIImage!
+    private var image: UIImage!
     weak var delegate: CropViewControllerDelegate?
 
     override func viewDidLoad() {
