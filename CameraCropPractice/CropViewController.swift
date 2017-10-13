@@ -79,6 +79,10 @@ class CropViewController: UIViewController, UIScrollViewDelegate {
 
         // 画像生成
         UIGraphicsBeginImageContext(visibleRect.size)
+        let context = UIGraphicsGetCurrentContext()
+        context?.setFillColor(UIColor.black.cgColor)
+        let backRect = CGRect(x: 0, y: 0, width: visibleRect.width, height: visibleRect.height)
+        context?.fill(backRect)
         let drawRect = CGRect(x: -visibleRect.origin.x, y: -visibleRect.origin.y, width: image!.size.width, height: image!.size.height)
         image!.draw(in: drawRect)
         let croppedImage = UIGraphicsGetImageFromCurrentImageContext()!
